@@ -1,0 +1,1291 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[class] {
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: -white;
+  font-style: normal;
+}
+.container {
+  max-width: 1437px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.top-header {
+  min-height: 100vh;
+  background-image: url("../images/main-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3px;
+  border-top: 1px solid #000;
+}
+.menu-mobile {
+  display: none;
+}
+.list {
+  display: flex;
+  padding-top: 13px;
+}
+.item {
+  margin-right: 92px;
+}
+.link-menu {
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 35px;
+  color: #ac0e28;
+  text-decoration: none;
+}
+.main {
+  background-color: #030813;
+}
+.decorBg {
+  margin: 0 auto;
+  padding-bottom: 94px;
+}
+.product-description {
+  padding-top: 248px;
+  display: flex;
+  align-items: center;
+}
+.product-title {
+  font-size: 64px;
+  line-height: 77px;
+  background: #cc0122;
+  background: -webkit-radial-gradient(
+    circle farthest-corner at center center,
+    #cc0122 0%,
+    #030202 100%
+  );
+  background: -moz-radial-gradient(
+    circle farthest-corner at center center,
+    #cc0122 0%,
+    #030202 100%
+  );
+  background: radial-gradient(
+    circle farthest-corner at center center,
+    #cc0122 0%,
+    #030202 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.product-text {
+  margin-top: 35px;
+  color: #c4c4c4;
+  font-size: 22px;
+  line-height: 147%;
+}
+.product-btn,
+.product-btnMobile {
+  margin-top: 35px;
+  padding: 7px 71px;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 36px;
+  border: none;
+  background: radial-gradient(
+    169.09% 169.09% at 50% 50%,
+    #ac0e28 0%,
+    rgba(172, 14, 40, 0) 100%
+  );
+  box-shadow: inset 1px 0px 5px 4px rgba(0, 0, 0, 0.25);
+}
+.product-img {
+  width: 108%;
+}
+.product-btnMobile {
+  display: none;
+}
+.product-descriptionMobile {
+  display: none;
+}
+
+.model-title,
+.technology-title,
+.colors-title,
+.sale-title {
+  padding-top: 147px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ac0e28;
+  text-align: center;
+}
+.model-inner {
+  padding-top: 90px;
+  display: flex;
+  align-items: center;
+}
+
+.model-text {
+  font-size: 22px;
+  line-height: 147%;
+  color: #c4c4c4;
+  margin-left: 26px;
+}
+.model-Mobileimg,
+.model-textMobile {
+  display: none;
+}
+.technology-wrapper {
+  margin: 0 auto;
+  width: 1193px;
+  position: relative;
+}
+.technology-material {
+  padding-top: 90px;
+  position: relative;
+}
+.overlays,
+.material,
+.Nike-Shox {
+  width: 413px;
+  position: relative;
+}
+.material {
+  padding-top: 90px;
+}
+.material-text {
+  position: absolute;
+  top: 78%;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  background: linear-gradient(
+    180deg,
+    rgba(46, 43, 43, 0.2) 0%,
+    rgba(0, 0, 0, 0.74) 60.42%
+  );
+}
+.overlays-text {
+  position: absolute;
+  top: 78%;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  background: linear-gradient(
+    180deg,
+    rgba(46, 43, 43, 0.2) 0%,
+    rgba(0, 0, 0, 0.74) 60.42%
+  );
+}
+
+.Nike-Shox-text {
+  position: absolute;
+  top: 78%;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  background: linear-gradient(
+    180deg,
+    rgba(46, 43, 43, 0.2) 0%,
+    rgba(0, 0, 0, 0.74) 60.42%
+  );
+}
+.bottom-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.technology {
+  position: relative;
+}
+.technology-bg,
+.technology-ImgBG {
+  margin: 0 auto;
+  margin-top: -100px;
+}
+
+.technology-img,
+.overlays-img,
+.Nike-Shox-img {
+  width: 100%;
+  max-width: 413px;
+  height: auto;
+}
+
+.border-top {
+  position: absolute;
+  border-bottom: 1px solid #ac0e28;
+  transform: rotate(42.92deg);
+  width: 322px;
+  top: 622px;
+  left: 367px;
+}
+.border-overlays {
+  position: absolute;
+  border-bottom: 1px solid #ac0e28;
+  transform: rotate(143.37deg);
+  width: 360px;
+  top: 1059px;
+  left: 377px;
+}
+.border-Nike-Shox {
+  position: absolute;
+  border-bottom: 1px solid #ac0e28;
+  transform: rotate(60.77deg);
+  width: 160.82px;
+  right: 371px;
+  bottom: 344px;
+}
+.colors-block {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+.colors-img:nth-child(-n + 3) {
+  height: 707px;
+}
+
+.colors-img:hover {
+  transform: scale(1.19);
+}
+.sale {
+  padding-top: 178px;
+}
+.saleMobile {
+  display: none;
+}
+.sale-wrapper {
+  display: flex;
+  padding-top: 87px;
+  padding-bottom: 120px;
+}
+.slider {
+  margin-right: 27px;
+}
+.slide-thumb {
+  width: 949px;
+}
+.card-product {
+  width: 387px;
+}
+.slide-thumbItems,
+.slide-thumbItem {
+  width: 949px;
+  height: 566px;
+}
+.slide-bigItems {
+  width: 217px;
+  height: 158px;
+}
+.slide-bigItem {
+  width: 217px;
+  height: 158px;
+  margin: 0;
+}
+.slide-big {
+  margin-top: 25px;
+}
+
+.slick-active {
+  width: 227px;
+}
+.product-cardTitle {
+  font-size: 34px;
+  line-height: 147%;
+  color: #c4c4c4;
+  margin-bottom: 15px;
+}
+.product-cardText {
+  color: #c4c4c4;
+  font-size: 22px;
+  line-height: 147%;
+  margin-bottom: 15px;
+}
+a.product-cardInfo {
+  font-size: 16px;
+  line-height: 147%;
+  text-decoration-line: underline;
+  color: #c4c4c4;
+}
+.product-params {
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.product-size {
+  width: 143px;
+  padding-right: 47px;
+}
+.size,
+.color {
+  font-size: 22px;
+  line-height: 147%;
+  color: #c4c4c4;
+  margin-bottom: 6px;
+}
+.select {
+  font-size: 22px;
+  line-height: 147%;
+  border: 1px solid #ac0e28;
+  color: #ac0e28;
+  outline: #6a1e27;
+  padding: 8px 42px 8px 12px;
+  background-color: transparent;
+}
+.option {
+  background-color: #ac0e28;
+  color: #c4c4c4;
+}
+.price {
+  padding-top: 37px;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 147%;
+  text-transform: uppercase;
+  color: #c4c4c4;
+}
+.delevely {
+  padding-top: 7px;
+  font-size: 16px;
+  line-height: 147%;
+  text-transform: uppercase;
+  color: #ac0e28;
+}
+.btn {
+  margin-top: 21px;
+  padding: 12px 147px;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 36px;
+  border: none;
+  background: radial-gradient(
+    169.09% 169.09% at 50% 50%,
+    #ac0e28 0%,
+    rgba(172, 14, 40, 0) 100%
+  );
+  box-shadow: inset 1px 0px 5px 4px rgba(0, 0, 0, 0.25);
+}
+.footer {
+  background: #1e1b1b;
+}
+.footer-top {
+  height: 99px;
+  padding-top: 45px;
+  margin-bottom: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info-item {
+  margin-left: 31px;
+  font-size: 14px;
+  line-height: 147%;
+  text-decoration: revert;
+  color: #ac0e28;
+}
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+}
+.social-link {
+  margin-left: 33px;
+}
+.tel {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 29px;
+  line-height: 35px;
+  color: #ac0e28;
+}
+.all-rihts {
+  color: #818181;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.015em;
+}
+.footer-bottom {
+  border-top: 1px solid #656363;
+  height: 67px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.confidicial {
+  color: #656363;
+}
+.usage,
+.politic {
+  color: #656363;
+}
+.politic {
+  margin-left: 38px;
+}
+.logo-mobile,
+  .social-iconsMobile {
+    display: none;
+  }
+.price-Mobile,
+.delevely-mobile,
+.btn-mobile {
+  display: none;
+}
+@media (max-width: 1536px) {
+}
+@media (max-width: 1440px) {
+  .container {
+    max-width: 1437px;
+    padding: 0 30px;
+  }
+  .border-top {
+    width: 356px;
+    top: 643px;
+    left: 361px;
+  }
+  .border-overlays {
+    width: 197px;
+    top: 1041px;
+    left: 379px;
+  }
+  .border-Nike-Shox {
+    width: 217px;
+    bottom: 359px;
+    left: 908px;
+  }
+  .colors-block {
+    padding-top: 120px;
+    margin: 0 auto;
+  }
+  .colors-img:nth-child(-n + 4) {
+    height: 598px;
+  }
+  .slider {
+    margin-right: -14px;
+  }
+  .slide-thumb {
+    width: 900px;
+  }
+  .slide-thumbItems,
+  .slide-thumbItem {
+    width: 898px;
+    height: auto;
+  }
+  .sale-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 1366px) {
+  .item {
+    margin-right: 60px;
+  }
+  .link-menu {
+    font-size: 22px;
+  }
+  .material-img,
+  .overlays-img,
+  .Nike-Shox-img,
+  .overlays,
+  .material,
+  .Nike-Shox {
+    width: 100%;
+    max-width: 226px;
+    height: auto;
+  }
+  .bottom-wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+  .border-top {
+    width: 302px;
+    top: 530px;
+    left: 184px;
+  }
+  .border-overlays {
+    width: 285px;
+    top: 913px;
+    left: 320px;
+  }
+  .border-Nike-Shox {
+    width: 179px;
+    bottom: 226px;
+    left: 847px;
+  }
+  .sale {
+    display: none;
+  }
+  .saleMobile {
+    display: block;
+    padding-top: 100px;
+  }
+  .saleMobile-title {
+    padding-top: 147px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    color: #ac0e28;
+    text-align: center;
+  }
+  .slider-Mobile {
+    max-width: 1224px;
+  }
+  .saleMobile-wrapper {
+    padding-top: 120px;
+  }
+  .slide-bigMobile {
+    width: 280px;
+
+    float: right;
+  }
+  .slide-bigItemsMobile,
+  .slide-bigItemMobile {
+    width: 270px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+  }
+  .slide-thumbMobile {
+    max-width: 900px;
+    object-fit: cover;
+  }
+  .slide-thumbItemsMobile,
+  .slide-thumbItemMobile {
+    width: 900px;
+  }
+  .card-product {
+    margin: 0 auto;
+    width: 618px;
+  }
+}
+@media (max-width: 1200px) {
+  .technology-material {
+    margin-left: 30px;
+  }
+  .border-top {
+    width: 341px;
+    top: 499px;
+    left: 179px;
+  }
+  .border-overlays {
+    width: 197px;
+    top: 911px;
+    left: 379px;
+  }
+  .border-Nike-Shox {
+    width: 137px;
+    bottom: 212px;
+    left: 643px;
+  }
+
+  .slide-bigItem {
+    height: auto;
+  }
+  
+}
+@media (max-width: 1024px) {
+  .item {
+    margin-right: 35px;
+  }
+  .link-menu {
+    font-size: 18px;
+  }
+  .product-title {
+    font-size: 50px;
+    line-height: 38px;
+  }
+  .product-text {
+    font-size: 18px;
+    line-height: 137%;
+  }
+  .product-bg {
+    width: 50%;
+  }
+  .material {
+    margin-left: 93px;
+  }
+  .material-img,
+  .overlays-img,
+  .Nike-Shox-img {
+    width: 100%;
+    max-width: 226px;
+    height: auto;
+  }
+  .technology-ImgBG {
+    width: 78%;
+  }
+  .border-top {
+    width: 141px;
+    top: 493px;
+    left: 299px;
+  }
+  .border-overlays {
+    width: 208px;
+    top: 805px;
+    left: 318px;
+  }
+  .border-Nike-Shox {
+    width: 137px;
+    bottom: 212px;
+    left: 591px;
+  }
+  .colors-img:nth-child(-n + 4) {
+    height: 466px;
+  }
+  .slide-thumbItemsMobile,
+  .slide-thumbItemMobile {
+    width: 660px;
+  }
+  .slide-bigItemsMobile,
+  .slide-bigItemMobile {
+    width: 210px;
+    padding-left: 9px;
+    margin-bottom: 8px;
+  }
+  .logo,
+  .social-icons {
+    display: none;
+  }
+  .logo-mobile {
+    display: block;
+  }
+  .social-iconsMobile {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 4px;
+  }
+}
+
+@media (max-width: 924px) {
+  .technology-ImgBG,
+  .technology-bg {
+    width: 70%;
+    margin-top: -26px;
+  }
+  .material {
+    padding-top: 55px;
+    margin-left: 167px;
+  }
+  .material-text,
+  .overlays-text,
+  .Nike-Shox-text {
+    position: absolute;
+    top: 97%;
+    color: #fff;
+    font-weight: 300;
+    font-size: 8px;
+    line-height: 10px;
+  }
+  .material-img,
+  .overlays-img,
+  .Nike-Shox-img,
+  .overlays,
+  .material,
+  .Nike-Shox {
+    max-width: 100px;
+  }
+  .border-top {
+    width: 133px;
+    top: 387px;
+    left: 250px;
+  }
+  .border-overlays {
+    width: 133px;
+    top: 541px;
+    left: 258px;
+    transform: rotate(339deg);
+  }
+  .border-Nike-Shox {
+    width: 62px;
+    bottom: 94px;
+    left: 552px;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu,
+  .logo,
+  .header,
+  .top-header,
+  .model-inner {
+    display: none;
+  }
+
+  .product-description {
+    display: block;
+    padding-top: 46px;
+  }
+  .product-title {
+    display: none;
+  }
+
+  .product-text {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 127.5%;
+  }
+  .product-descriptionMobile {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+  }
+  .product-btn {
+    display: none;
+  }
+  .product-btnMobile {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    display: block;
+  }
+  .product-bg {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 42px;
+  }
+  .menu-mobile {
+    background-image: url("../images/main-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 50vh;
+    align-items: baseline;
+    margin: 0 auto;
+    display: block;
+    flex-direction: column-reverse;
+    padding: 27px 22px 0;
+  }
+  .menu-mobileWraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .burger {
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+  }
+  .menu {
+    height: 70%;
+    width: 50%;
+    background-color: transparent;
+    z-index: 9999;
+    display: none;
+    text-align: center;
+  }
+  .menu li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  .menu li a {
+    padding-top: 20px;
+    text-decoration: none;
+    color: #9a041d;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .bar {
+    transition: 0.4s;
+  }
+  .bar-1,
+  .bar-2,
+  .bar-3 {
+    width: 5em;
+    display: block;
+    width: 40px;
+    border-top: 6px solid #9a041d;
+    padding-top: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  .change .bar-1 {
+    -webkit-transform: rotate(-45deg) translate(-10px, 5px);
+    transform: rotate(-45deg) translate(-10px, 8px);
+  }
+  .change .bar-2 {
+    opacity: 0;
+  }
+  .change .bar-3 {
+    -webkit-transform: rotate(45deg) translate(-10px, 5px);
+    transform: rotate(45deg) translate(-10px, -5px);
+  }
+  .product-Mobiletitle {
+    padding-top: 284px;
+  }
+  .product-titleMobile {
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    line-height: 24px;
+    background: #cc0122;
+    background: -webkit-radial-gradient(
+      circle farthest-corner at center center,
+      #cc0122 0%,
+      #030202 100%
+    );
+    background: -moz-radial-gradient(
+      circle farthest-corner at center center,
+      #cc0122 0%,
+      #030202 100%
+    );
+    background: radial-gradient(
+      circle farthest-corner at center center,
+      #cc0122 0%,
+      #030202 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .model-title {
+    text-align: left;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 22px;
+    padding-top: 39px;
+  }
+
+  .model-textMobile {
+    padding-top: 15px;
+    font-size: 16px;
+    line-height: 147%;
+    color: #c4c4c4;
+  }
+  .model-mobile,
+  .model-Mobileimg,
+  .model-textMobile {
+    display: block;
+    width: 100%;
+  }
+  .model-Mobileimg {
+    padding-top: 15px;
+  }
+  .model-title,
+  .technology-title,
+  .colors-title,
+  .sale-title {
+    padding-top: 40px;
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 36px;
+    color: #ac0e28;
+    text-align: center;
+  }
+  .bottom-wrapper {
+    padding-top: 36px;
+  }
+  .material {
+    padding-top: 68px;
+    margin-left: 118px;
+  }
+  .technology-ImgBG,
+  .technology-bg {
+    margin-top: 43px;
+    width: 85%;
+  }
+  .border-Nike-Shox {
+    width: 124px;
+    bottom: 120px;
+    left: 406px;
+  }
+  .border-overlays {
+    width: 164px;
+    top: 565px;
+    left: 191px;
+    transform: rotate(316deg);
+  }
+  .border-top {
+    width: 167px;
+    top: 343px;
+    left: 180px;
+  }
+  .colors-title {
+    padding-top: 108px;
+  }
+  .colors-img:nth-child(-n + 4) {
+    height: 350px;
+  }
+  .saleMobile {
+    padding-top: 10px;
+  }
+  .saleMobile-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 16px;
+    color: #ac0e28;
+    text-align: center;
+  }
+  .slide-bigMobile {
+    width: 188px;
+    float: right;
+  }
+  .slide-thumbItemsMobile,
+  .slide-thumbItemMobile {
+    width: 517px;
+    height: auto;
+  }
+  .slide-bigItemsMobile,
+  .slide-bigItemMobile {
+    width: 162px;
+    padding-left: 10px;
+    margin-bottom: 8px;
+  }
+  .slick-list draggable {
+    height: 275px;
+  }
+  .saleMobile-wrapper {
+    display: block;
+  }
+  .card-product {
+    padding-bottom: 20px;
+    margin: 0;
+    width: 618px;
+  }
+  .product-cardText {
+    font-size: 12px;
+    max-width: 220px;
+  }
+  a.product-cardInfo {
+    font-size: 12px;
+  }
+  .size,
+  .color {
+    font-size: 12px;
+  }
+  .info-item {
+    font-size: 8px;
+  }
+  .tel {
+    font-size: 12px;
+    padding-left: 35px;
+  }
+}
+@media (max-width: 470px) {
+  .material {
+    margin-left: 68px;
+  }
+  .border-top {
+    width: 68px;
+    top: 307px;
+    left: 114px;
+  }
+  .border-Nike-Shox {
+    width: 80px;
+    bottom: 100px;
+    left: 200px;
+  }
+  .border-overlays {
+    width: 103px;
+    top: 434px;
+    left: 119px;
+  }
+  .colors-img:nth-child(-n + 4) {
+    height: 202px;
+  }
+  .select {
+    padding: 3px 19px 3px 6px;
+    font-size: 10px;
+  }
+  .product-params {
+    padding-top: 15px;
+    display: flex;
+    justify-content: start;
+  }
+  .price,
+  .btn,
+  .delevely {
+    display: none;
+  }
+  .price-Mobile,
+  .delevely-mobile,
+  .btn-mobile {
+    display: block;
+  }
+  .btn-mobile {
+    margin-top: 12px;
+    padding: 7px 44px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    border: none;
+    background: radial-gradient(
+      169.09% 169.09% at 50% 50%,
+      #ac0e28 0%,
+      rgba(172, 14, 40, 0) 100%
+    );
+    box-shadow: inset 1px 0px 5px 4px rgb(0 0 0 / 25%);
+  }
+  .delevely {
+    font-size: 9px;
+  }
+  .price-text,
+  .price-value {
+    font-size: 17px;
+  }
+  .product-color {
+    padding-right: 178px;
+  }
+}
+@media (max-width: 425px) {
+  .menu-mobile {
+    min-height: 30vh;
+  }
+  .product-text {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 127.5%;
+  }
+  .product-Mobiletitle {
+    padding-top: 150px;
+  }
+  .product-descriptionMobile {
+    height: 80px;
+  }
+  .product-btnMobile {
+    padding: 7px 18px;
+  }
+  .model-title {
+    font-size: 18px;
+  }
+  .model-textMobile {
+    padding-top: 15px;
+    font-size: 12px;
+    line-height: 147%;
+    color: #c4c4c4;
+  }
+  .material {
+    padding-top: 16px;
+    margin-left: 4px;
+  }
+  .bottom-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .model-title,
+  .technology-title,
+  .colors-title,
+  .sale-title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .border-top {
+    width: 84px;
+    top: 252px;
+    left: 81px;
+  }
+  .border-Nike-Shox {
+    width: 95px;
+    bottom: 108px;
+    left: 206px;
+  }
+  .border-overlays {
+    width: 117px;
+    top: 360px;
+    left: 77px;
+    transform: rotate(316deg);
+  }
+  .colors-block {
+    padding-top: 40px;
+    margin: 0 auto;
+  }
+  .colors-img:nth-child(-n + 4) {
+    height: 186px;
+  }
+  .saleMobile-title {
+    padding-top: 40px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ac0e28;
+    text-align: center;
+  }
+  .saleMobile-wrapper {
+    padding-top: 15px;
+  }
+  .slide-thumbItemsMobile,
+  .slide-thumbItemMobile {
+    width: 290px;
+    height: auto;
+  }
+  .slide-bigItemsMobile,
+  .slide-bigItemMobile {
+    width: 85px;
+    padding-left: 10px;
+    margin-bottom: 8px;
+  }
+  .slick-list draggable {
+    height: 175px;
+  }
+  .slide-bigMobile {
+    width: 90px;
+    float: right;
+  }
+  .product-cardTitle {
+    font-size: 13px;
+  }
+  .all-rihts,
+  .usage,
+  .politic {
+    font-size: 8px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .colors-block {
+    padding-top: 47px;
+  }
+  .colors-img:nth-child(-n + 4) {
+    height: 162px;
+  }
+  .slide-thumbItemsMobile,
+  .slide-thumbItemMobile {
+    width: 225px;
+    height: auto;
+  }
+  .slide-bigMobile {
+    width: 76px;
+    float: right;
+  }
+  .slide-bigItemsMobile,
+  .slide-bigItemMobile {
+    width: 62px;
+    padding-left: 6px;
+    margin-bottom: 7px;
+  }
+  .product-size {
+    width: 168px;
+    padding-right: 170px;
+  }
+  .delevely-mobile {
+    font-size: 9px;
+    line-height: 147%;
+    text-transform: uppercase;
+    color: #ac0e28;
+  }
+  .price-text,
+  .price-value {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 147%;
+    text-transform: uppercase;
+    color: #c4c4c4;
+  }
+}
+
+@media (max-width: 320px) {
+  .menu-mobile {
+    background-image: url("../images/main-bgMobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 26vh;
+    align-items: baseline;
+    margin: 0 auto;
+
+    padding: 27px 22px 0;
+  }
+  .border-overlays {
+    width: 117px;
+    top: 342px;
+    left: 77px;
+  }
+  .technology-ImgBG,
+  .technology-bg {
+    margin-top: 93px;
+    width: 100%;
+  }
+  .border-overlays {
+    width: 117px;
+    top: 409px;
+    left: 77px;
+  }
+  .border-Nike-Shox {
+    width: 95px;
+    bottom: 108px;
+    left: 173px;
+  }
+  .colors-img:nth-child(-n + 4) {
+    height: 133px;
+  }
+  .product-size {
+    width: 168px;
+  }
+  .price-Mobile {
+    padding-left: 125px;
+  }
+  .btn-mobile {
+    margin-left: 130px;
+  }
+  .info-item {
+    margin: 0;
+  }
+  .tel {
+    font-size: 8px;
+    padding-left: 65px;
+  }
+  .usage,
+  .politic {
+    font-size: 8px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 280px) {
+  .product-descriptionMobile {
+    height: 60px;
+  }
+}
