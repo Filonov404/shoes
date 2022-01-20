@@ -94,6 +94,11 @@ body {
   color: #ac0e28;
   text-decoration: none;
 }
+
+.link-menu:hover{
+box-shadow: 1px 4px 68px 14px rgba(231, 14, 14, 0.04);
+transition: .3s ease;
+}
 .main {
   background-color: #030813;
 }
@@ -136,6 +141,7 @@ body {
 }
 .product-btn,
 .product-btnMobile {
+  color: #000;
   margin-top: 35px;
   padding: 7px 71px;
   font-weight: 300;
@@ -295,12 +301,14 @@ body {
   justify-content: center;
   margin-top: 120px;
 }
-.colors-img:nth-child(-n + 3) {
+.colors-img {
   height: 707px;
+  transition: .3s ease;
 }
 
 .colors-img:hover {
   transform: scale(1.19);
+  box-shadow: 1px 4px 45px 28px rgba(231, 14, 14, 0.13);
 }
 .sale {
   padding-top: 178px;
